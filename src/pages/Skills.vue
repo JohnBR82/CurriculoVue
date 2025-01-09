@@ -6,7 +6,7 @@
         :key="index"
         @click="currentSkill = index"
         class="bg-gray-200 dark:bg-white dark:text-black hover:bg-gray-900 hover:text-white text-gray-800 font-bold py-2 px-4 rounded transition duration-300 mb-2"
-        :class="{ 'bg-blue-800 dark:bg-[#1b4d3e] text-white dark:text-gray-100': currentSkill === index }"
+        :class="{ 'bg-[#000036] dark:bg-[#1b4d3e] text-white dark:text-gray-100': currentSkill === index }"
       >
         {{ skill.name[language] }}
       </button>
