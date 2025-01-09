@@ -7,7 +7,7 @@
       <div class="flex items-center space-x-4">
         <button
           @click="$emit('toggle-language')"
-          class="font-bold py-2 px-4 rounded transition duration-300 bg-blue-500 hover:bg-blue-600 text-white dark:hover:bg-blue-700 dark:bg-green-600"
+          class="font-bold py-2 px-4 rounded transition duration-300 bg-[#1e90ff] hover:bg-blue-600 text-white dark:hover:bg-blue-700 dark:bg-[#32cd32]"
         >
           {{ language === 'pt' ? 'Translate to English' : 'Traduzir para Português' }}
         </button>
