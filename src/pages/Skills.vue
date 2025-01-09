@@ -19,7 +19,8 @@
         <h4 class="text-xl font-semibold text-gray-700 mb-4 dark:text-white font-mono">{{ language === 'pt' ? 'Minhas habilidades em Programação' : 'My Programming Skills' }}</h4>
         <div class="w-full max-w-md mx-auto h-64">
           <Pie v-if="loaded" :data="chartData" :options="chartOptions" />
-          <Pie class="mt-8" v-if="loaded" :data="chartData2" :options="chartOptions" />
+          <div class="mt-8"></div>
+          <Pie v-if="loaded" :data="chartData2" :options="chartOptions" />
         </div>
       </div>
       
